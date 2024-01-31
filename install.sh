@@ -9,15 +9,6 @@ disk_image_size=$(jq -r .disk_image_size "$config_file")
 # Update package list
 sudo apt update -y
 
-# Download bios64.bin
-wget -O bios64.bin "https://github.com/BlankOn/ovmf-blobs/raw/master/bios64.bin"
-
-# Download ngrok
-wget -O ngrok.tgz "https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz"
-
-# Extract ngrok
-tar -xf ngrok.tgz
-
 # Set ngrok authtoken
 ./ngrok authtoken "$ngrok_token"
 
