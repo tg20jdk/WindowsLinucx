@@ -1,5 +1,5 @@
 {
   "ngrok_token": "YOUR_NGROK_AUTH_TOKEN",
-  "windows_iso_source": "https://drive.massgrave.dev/en-us_windows_server_2022_updated_dec_2023_x64_dvd_f101ef8f.iso",
-  "disk_image_size": "25G"
+  "windows_iso_source": "-",
+  "disk_image_size": "00G" 
 }
