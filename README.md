@@ -1,6 +1,6 @@
 > Run Sh as usual and don't forget to change the config.json!
 > With this you can run Windows on Linux, Ubuntu, Debian and so on 
-
+> Exemple iso "https://drive.massgrave.dev/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso" Windows Ltsc 2021
 
 ## Run ⏳
 
