@@ -8,6 +8,9 @@
 
 ## Run ⏳
 ```
+cd /tmp && sudo rm -r * && clear
+```
+```
 wget -O win.iso "https://drive.massgravel.workers.dev/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso"
 ```
 ```
