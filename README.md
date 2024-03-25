@@ -1,6 +1,6 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 <p align="center">
-    <img src="https://raw.githubusercontent.com/NeeasTooID/.github/main/Proyek%20Baru%20138%20%5B80913B9%5D.png" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
+    <img src="https://raw.githubusercontent.com/NeeasTooID/Static-HTML/main/media/img0_3840x2160.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
 
 > Run Sh as usual and don't forget to change the config.json!
