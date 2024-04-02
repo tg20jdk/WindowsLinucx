@@ -23,27 +23,27 @@
 # Remove files in /tmp and clear screen
 cd /tmp && sudo rm -r * && clear
 ```
-```
+```bash
 # Download Windows 10 ISO
 wget -O win.iso "https://drive.massgravel.workers.dev/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso"
 ```
-```
+```bash
 # Download BIOS
 wget https://github.com/HindiaFtNpc/WindowsLinucx/raw/main/bios64.bin
 ```
-```
+```bash
 # Update apt repositories
 sudo apt update
 ```
-```
+```bash
 # Install qemu-kvm
 sudo apt install qemu-kvm -y
 ```
-```
+```bash
 # Create virtual hard disk (60GB)
 qemu-img create -f raw win.img 60G
 ```
-```
+```bash
 # Run QEMU
 sudo qemu-system-x86_64 -m 4G -smp 2 -cpu host -boot order=c \
 -drive file=win.iso,media=cdrom -drive file=win.img,format=raw \
@@ -51,7 +51,7 @@ sudo qemu-system-x86_64 -m 4G -smp 2 -cpu host -boot order=c \
 -vnc :0 -smp cores=2 -device e1000,netdev=n0 -netdev user,id=n0 \
 -vga qxl -accel kvm -bios bios64.bin
 ```
-```
+```bash
 # Install Playit.gg ( Opsional )
 curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | \
 sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null
