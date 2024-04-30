@@ -45,11 +45,7 @@ qemu-img create -f raw win.img 60G
 ```
 ```bash
 # Run QEMU
-sudo qemu-system-x86_64 -m 4G -smp 2 -cpu host -boot order=c \
--drive file=win.iso,media=cdrom -drive file=win.img,format=raw \
--device usb-ehci,id=usb,bus=pci.0,addr=0x4 -device usb-tablet \
--vnc :0 -smp cores=2 -device e1000,netdev=n0 -netdev user,id=n0 \
--vga qxl -accel kvm -bios bios64.bin
+sudo qemu-system-x86_64 -m 4G -smp 4 -cpu host -boot order=c -drive file=win.iso,media=cdrom -drive file=win.img,format=raw -device usb-ehci,id=usb,bus=pci.0,addr=0x4 -device usb-tablet -vnc :0 -smp cores=4 -device e1000,netdev=n0 -netdev user,id=n0 -vga qxl -accel kvm -bios bios64.bin
 ```
 ```bash
 # Install Playit.gg ( Opsional )
