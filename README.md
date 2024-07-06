@@ -23,7 +23,7 @@
 cd /tmp && sudo rm -r * && clear
 ```
 ```bash
-wget -O win.iso "https://drive.massgravel.workers.dev/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso"
+wget -O win.iso "https://drive.massgrave.dev/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso"
 ```
 ```bash
 wget https://github.com/HindiaFtNpc/WindowsLinucx/raw/main/bios64.bin
